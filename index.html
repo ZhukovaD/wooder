@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wooder</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="js/picturefill.js" defer></script>
+</head>
+<body>
+    <header class="page-header">
+        <nav class="main-nav">
+            <ul class="main-nav__list site-list">
+                <li class="site-list__item">
+                    <a href="#">Home</a>
+                </li>
+                <li class="site-list__item">
+                    <a href="#">Products</a>
+                </li>
+                <li class="site-list__item site-list__item--logo">
+                    <img src="img/logo.svg" alt="Company logo" width="213">
+                </li>
+                <li class="site-list__item">
+                    <a href="#">Video</a>
+                </li>
+                <li class="site-list__item">
+                    <a href="#">About</a>
+                </li>
+            </ul>
+            <ul class="main-nav__list dev-list">
+                <li class="dev-list__item">
+                    <svg class="dev-list__icon" width="24">
+                        <use xlink:href="#icon-info"></use>
+                    </svg>
+                </li>
+                <li class="dev-list__item">
+                    <ul class="dev-list__sublist lang-toggle">
+                        <li class="lang-toggle__item">ENG</li>
+                        <li class="lang-toggle__item">RU</li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="main-slider">
+            <div class="main-slider__wrapper">
+                <h1 class="main-slider__title">Wooder</h1>
+                <button class="button main-slider__button">
+                    Learn more
+                    <svg class="main-slider__button-icon" width="33" height="11">
+                        <use xlink:href="#icon-arrow-button"></use>
+                    </svg>
+                </button>
+                <div class="main-slider__scroll">
+                    <svg class="main-slider__scroll-icon" width="23">
+                        <use xlink:href="#icon-mouse"></use>
+                    </svg>
+                    <svg class="main-slider__scroll-icon" width="11">
+                        <use xlink:href="#icon-arrow-mouse"></use>
+                    </svg>
+                    <p class="main-slider__scroll-text">Scroll</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="goods">
+            <div class="goods__wrapper">
+            <article class="goods__item">
+                <img src="img/furniture@1x.jpg" srcset="img/furniture@2x.jpg 2x" alt="Photo of a wooden table">
+                <div class="goods__info">
+                    <h3 class="goods__title">Furniture</h3>
+                    <p class="goods__description">
+                        Wooder utilizes materials otherwise left behind,
+                        rendered useless in their original intent. By creating new pieces made of
+                        reclaimed barnwood
+                    </p>
+                    <a href="#" class="goods__link">Learn-more</a>
+                    <p class="goods__item-number">01<span class="goods__item-dot">.</span></p>
+                </div>
+                <hr class="goods__separator" width="4" align="left" size="44" color="#bea67c" noshade>
+            </article>
+
+            <article class="goods__item">
+                <img src="img/decor@1x.jpg" srcset="img/decor@2x.jpg 2x" alt="Photo of a wooden benches">
+                <div class="goods__info">
+                    <h3 class="goods__title">Decor</h3>
+                    <p class="goods__description">
+                        We make all types of wooden decor as per design given by Architect,
+                        Interior designer, contractor which is suitable
+                        your premises.
+                    </p>
+                    <a href="#" class="goods__link">Learn-more</a>
+                    <p class="goods__item-number">02<span class="goods__item-dot">.</span></p>
+                </div>
+                <hr class="goods__separator" width="4" align="right" size="44" color="#bea67c" noshade>
+            </article>
+            </div>
+        </section>
+
+        <section class="video-small">
+            <div class="video-small__wrapper">
+            <h2 class="video-small__title">Wooder &mdash; is quality</h2>
+            <hr width="45" align="center" size="4" color="#bea67c" noshade>
+            <p class="video-small__subtitle">
+                We create unique design objects made of rare wood,
+                specially under the order. Look at the short video about our work.
+            </p>
+            <div class="video-small__item-wrapper">
+                <div class="video-small__item video-item">
+                    <div class="video-item__preview video-item__preview--1">
+                        <div class="video-item__controls">
+                            <svg class="video-item__play-icon" width="22">
+                                <use xlink:href="#icon-play"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <hr width="25" align="center" size="1" color="#bea67c" noshade>
+                    <p class="video-item__title">Innovative Design</p>
+                </div>
+
+                <div class="video-small__item video-item">
+                    <div class="video-item__preview video-item__preview--2">
+                        <div class="video-item__controls">
+                            <svg class="video-item__play-icon" width="22">
+                                <use xlink:href="#icon-play"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <hr width="25" align="center" size="1" color="#bea67c" noshade>
+                    <p class="video-item__title">Innovative Design</p>
+                </div>
+
+                <div class="video-small__item video-item">
+                    <div class="video-item__preview video-item__preview--3">
+                        <div class="video-item__controls">
+                            <svg class="video-item__play-icon" width="22">
+                                <use xlink:href="#icon-play"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <hr width="25" align="center" size="1" color="#bea67c" noshade>
+                    <p class="video-item__title">Innovative Design</p>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="video">
+            <div class="video-border">
+                <div class="video__wrapper">
+                    <h2 class="video__title">
+                        we Do the design <br>
+                        of any complexity
+                    </h2>
+                    <p class="video__description">
+                        This is a team of professionals that make the furniture and
+                        wood décor high standard. Creating modern designs.
+                        Adhering to the global quality standards. And we are
+                        doing work with love.
+                    </p>
+                    <button class="button video__button">
+                        <svg class="video__small-play-icon" width="24">
+                            <use xlink:href="#icon-small-play"></use>
+                        </svg>
+                        Watch video</button>
+                </div>
+                <svg class="video__big-play-icon" width="842">
+                    <use xlink:href="#icon-big-play"></use>
+                </svg>
+                <hr class="video__hr" width="1" align="right" size="115" color="#ffffff" noshade>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="about__wrapper">
+                <article class="about__item">
+                    <img src="img/about@1x.jpg" srcset="img/about@2x.jpg 2x" alt="Photo of our team">
+                    <div class="about__info">
+                        <h3 class="about__title">About</h3>
+                        <p class="about__description">
+                            We make all types of wooden decor as per design given by Architect,
+                            Interior designer, contractor which is suitable
+                            your premises.
+                        </p>
+                        <a href="#" class="about__link">Learn-more</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <div class="footer__wrapper">
+            <p class="footer__copyright">
+                &copy;2018 Wooder
+            </p>
+            <img src="img/logo.svg" alt="Company logo" width="176">
+            <p class="footer__text">
+                Wooder. All rights reserved.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

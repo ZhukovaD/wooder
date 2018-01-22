@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>small-play</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-1162.000000, -114.000000)">
+            <g id="small-play" transform="translate(1163.000000, 115.000000)">
+                <path d="M8.34342814,9.59072109 C7.67075042,8.71219009 8.01568828,8 9.12081946,8 L18.082164,8 C19.1841831,8 19.5364933,8.70650375 18.8593443,9.59072109 L14.2102349,15.6615019 C13.8737254,16.1009141 13.3226868,16.0937358 12.9917319,15.6615019 L8.34342814,9.59072109 Z" id="arrow" fill="#000000" transform="translate(13.602043, 11.994187) rotate(-90.000000) translate(-13.602043, -11.994187) "></path>
+                <circle id="Oval-2" stroke="#000000" stroke-width="2" cx="12" cy="12" r="12"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

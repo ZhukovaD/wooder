@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="17px" viewBox="0 0 12 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-722.000000, -441.000000)" fill="#000000">
+            <path d="M720.534841,446.356496 C719.50461,445.055039 720.005486,444 721.669565,444 L734.669321,444 C736.326243,444 736.834635,445.054403 735.803722,446.356496 L729.410687,454.43121 C728.724712,455.297629 727.616845,455.302961 726.926769,454.43121 L720.534841,446.356496 Z" id="arrow" transform="translate(728.168621, 449.309918) rotate(-90.000000) translate(-728.168621, -449.309918) "></path>
+        </g>
+    </g>
+</svg>
