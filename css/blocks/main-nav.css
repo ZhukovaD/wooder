@@ -1,0 +1,16 @@
+.main-nav{
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+}
+
+.main-nav__list {
+    max-width: var(--width);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 20px 250px;
+}

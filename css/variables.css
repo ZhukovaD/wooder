@@ -1,0 +1,35 @@
+:root{
+    --base-color:#bea67c;
+    --intaractive-base-color: rgba(190,166,124,0.8);
+    --border-color:#e1e1e1;
+    --intaractive-color:rgba(255,255,255,1);
+    --intaractive-bg-color:rgba(255,255,255,0);
+    --intaractive-link-color:rgba(0,0,0,1);
+    --img-filter:rgba(0,0,0,0.8);
+
+    --base-font:"Proxima Nova Regular", Arial, sans-serif;
+    --normal-text-size: 15px;
+    --link-size:14px;
+    --subtitle-size:36px;
+    --title-font:"Proxima Nova Bold", "Arial Bold", sans-serif;
+    --title-size:48px;
+    --big-title-size:100px;
+
+    --width:1200px;
+}
+
+.button:hover,
+.main-slider__button:hover .main-slider__button-icon,
+.site-list__link:hover{
+    --intaractive-color:rgba(255,255,255,0.7);
+    --intaractive-bg-color:rgba(255,255,255,0.1);
+}
+
+.link:hover{
+    --intaractive-link-color:rgba(0,0,0,0.7);
+}
+
+.video-item__controls:hover{
+    --intaractive-base-color: rgba(190,166,124,1);
+
+}

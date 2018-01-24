@@ -1,0 +1,53 @@
+.button {
+    border: solid 3px #ffffff;
+    background-color: var(--intaractive-bg-color);
+    cursor: pointer;
+    font-family: var(--title-font);
+    font-size: var(--link-size);
+    color: var(--intaractive-color);
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    text-align: center;
+    display: block;
+    width: 300px;
+    text-transform: uppercase;
+    padding: 17px;
+}
+
+.link{
+    max-width: 143px;
+    position: relative;
+    color:var(--intaractive-link-color);
+    cursor: pointer;
+    font-family: var(--title-font);
+    font-size: var(--link-size);
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    display: block;
+    text-transform: uppercase;
+    padding:5px 0 5px 0;
+}
+
+.link::before{
+    content: "";
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 45px;
+    background-color: var(--base-color);
+    bottom: 0;
+}
+
+.link::after{
+    content: "";
+    display: block;
+    position: absolute;
+    height: 7px;
+    width: 33px;
+    background-image:url("/img/link-arrow.svg");
+    background-repeat: no-repeat;
+    bottom: 35%;
+    right: 0;
+}
+
+

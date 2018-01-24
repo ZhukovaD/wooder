@@ -1,0 +1,107 @@
+.main-slider{
+    position:relative;
+}
+
+.main-slider__img-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-slider__left{
+    position: relative;
+    width: 50%;
+    height: 900px;
+    min-height: 100vh;
+    background-color: #2c2c2c;
+    background-image: url("/img/main-left@1x.jpg");
+    background-size: cover;
+}
+
+.main-slider__right{
+    position: relative;
+    width: 50%;
+    height: calc(900px + 50px);
+    background-color: #3f3f3f;
+    background-image: url("/img/main-right@1x.jpg");
+    background-size: cover;
+}
+
+.main-slider__left::before,
+.main-slider__right::before{
+    content:"";
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--img-filter);
+}
+
+.main-slider__text-wrapper{
+    display: block;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-right:50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-slider__title{
+    font-family: var(--title-font);
+    font-size: var(--big-title-size);
+    color:var(--base-color);
+    cursor: default;
+    margin-bottom: 30px;
+}
+
+.main-slider__button-icon{
+    fill:#ffffff;
+    stroke: var(--intaractive-color);
+}
+
+.main-slider__mouse-icon{
+    stroke: #ffffff;
+    fill:none;
+    display: block;
+    height: 30px;
+    margin-top:70px;
+    margin-bottom: 20px;
+}
+
+.main-slider__mouse-arrow-icon{
+    stroke: #ffffff;
+    display: block;
+    height: 75px;
+    width: 23px;
+    text-align: center;
+}
+
+.main-slider__scroll-text-wrapper{
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
+
+.main-slider__scroll-text{
+    font-family: var(--title-font);
+    font-size: var(--link-size);
+    color: rgba(255,255,255,0.1);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    position: absolute;
+    top:50px;
+    left:-24px;
+    cursor: default;
+}
+
+@media (min-resolution: 144dpi) , (min-resolution: 1.5dppx) {
+    .main-slider__left{
+        background-image: url("/img/main-left@2x.jpg");
+    }
+
+    .main-slider__right{
+        background-image: url("/img/main-right@1x.jpg");
+    }
+
+}

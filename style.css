@@ -1,0 +1,15 @@
+@import "css/normalize.css";
+@import "css/fonts.css";
+@import "css/variables.css";
+@import "css/basic.css";
+@import "css/button.css";
+
+@import "css/blocks/main-nav.css";
+@import "css/blocks/site-list.css";
+
+@import "css/blocks/main-slider.css";
+@import "css/blocks/goods.css";
+@import "css/blocks/video-small.css";
+@import "css/blocks/video.css";
+@import "css/blocks/about.css";
+@import "css/blocks/footer.css";
