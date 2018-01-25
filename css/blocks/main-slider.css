@@ -105,3 +105,32 @@
     }
 
 }
+
+@media (max-width: 500px){
+    .main-slider__mouse-icon,
+    .main-slider__mouse-arrow-icon,
+    .main-slider__scroll-text-wrapper,
+    .main-slider__scroll-text{
+        display: none;
+    }
+
+    .main-slider__left{
+        height: 100vh;
+    }
+
+    .main-slider__right{
+        height: calc(100vh + 50px);
+    }
+
+    .main-slider__text-wrapper{
+        top:45%;
+        text-align: center;
+        width: var(--width);
+        padding: var(--padding);
+        margin: 0 auto;
+    }
+
+    .main-slider__button{
+        margin: 0 auto;
+    }
+}

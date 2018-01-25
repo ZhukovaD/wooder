@@ -3,24 +3,29 @@
     flex-direction: column;
     justify-content: space-between;
     max-width: var(--width);
+    padding: var(--padding);
     margin: 0 auto;
 }
 
 .about__item{
     position: relative;
     display: flex;
-    flex-direction: row;
+    flex-direction: var(--flex-dir);
     justify-content: space-between;
+    align-items: center;
     margin-top: 100px;
     margin-bottom: 80px;
     margin-left: 0;
 }
 
 .about__info{
-    margin-left: 10px;
+    margin-left: 70px;
     margin-right: 155px;
     max-width: 350px;
     margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 /*Стили для заголовка и линии*/
@@ -59,4 +64,43 @@
     height: 4px;
     width: 45px;
     background-color:var(--base-color);
+}
+
+@media (max-width: 1000px){
+    .about__info{
+        margin-left: 70px;
+        margin-right: 0;
+    }
+
+    .about__title::before{
+        left:-105px;
+        width: 90px;
+    }
+}
+
+@media (max-width: 600px){
+
+    .about__title{
+        margin-top: 40px;
+    }
+
+    .about__info{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 550px){
+    .about__info{
+        margin-left: 0;
+    }
+
+    .about__title::before{
+        content: "";
+        display: none;
+    }
+
+    .about__description::before{
+        content: "";
+        display: none;
+    }
 }

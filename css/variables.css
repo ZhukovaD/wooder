@@ -15,7 +15,11 @@
     --title-size:48px;
     --big-title-size:100px;
 
+    --flex-dir:row;
+    --flex-dir-reverse:row-reverse;
+
     --width:1200px;
+    --padding: 0 20px 0 20px;
 }
 
 .button:hover,
@@ -32,4 +36,41 @@
 .video-item__controls:hover{
     --intaractive-base-color: rgba(190,166,124,1);
 
+}
+
+@media (max-width: 1200px) {
+    :root{
+        --width:980px;
+    }
+}
+
+@media (max-width: 1000px) {
+    :root{
+        --width:780px;
+    }
+}
+
+@media (max-width: 800px) {
+    :root{
+        --width:580px;
+    }
+}
+
+@media (max-width: 600px) {
+    :root{
+        --width:480px;
+        --flex-dir:column;
+        --flex-dir-reverse:column;
+
+    }
+}
+
+@media (max-width: 500px) {
+    :root{
+        --width:320px;
+        --padding: 0 10px 0 10px;
+        --title-size:36px;
+        --big-title-size:60px;
+
+    }
 }

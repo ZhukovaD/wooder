@@ -15,7 +15,7 @@
 }
 
 .link{
-    max-width: 143px;
+    min-width: 100px;
     position: relative;
     color:var(--intaractive-link-color);
     cursor: pointer;
@@ -25,7 +25,8 @@
     letter-spacing: 0.1em;
     display: block;
     text-transform: uppercase;
-    padding:5px 0 5px 0;
+    padding:5px 40px 5px 0;
+    white-space: nowrap;
 }
 
 .link::before{
@@ -48,6 +49,12 @@
     background-repeat: no-repeat;
     bottom: 35%;
     right: 0;
+}
+
+@media (max-width: 500px) {
+    .button {
+        width: 200px;
+    }
 }
 
 

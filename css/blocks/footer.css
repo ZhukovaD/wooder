@@ -18,10 +18,11 @@
 .footer__wrapper{
     height: 80px;
     display: flex;
-    flex-direction: row;
+    flex-direction: var(--flex-dir);
     justify-content: space-between;
     align-items: center;
     max-width: var(--width);
+    padding: var(--padding);
     margin: 0 auto;
 }
 
@@ -47,5 +48,17 @@
 @media (min-resolution: 144dpi) , (min-resolution: 1.5dppx) {
     .footer {
         background-image: url("/img/main-left@2x.jpg");
+    }
+}
+
+@media (max-width: 550px) {
+
+    .footer__wrapper{
+        height: 120px;
+       padding: 70px 0 30px 0;
+    }
+
+    .footer__copyright{
+        order: 1;
     }
 }

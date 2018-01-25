@@ -55,22 +55,23 @@
 
 </div>
     <header class="page-header">
-        <nav class="main-nav">
+        <nav class="main-nav main-nav--closed">
+            <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
             <ul class="main-nav__list site-list">
                 <li class="site-list__item">
-                    <a class="site-list__link" href="#">Home</a>
+                    <a class="site-list__link" href="#goods">Products</a>
                 </li>
                 <li class="site-list__item">
-                    <a class="site-list__link" href="#">Products</a>
+                    <a class="site-list__link" href="#work">Our work</a>
                 </li>
                 <li class="site-list__item site-list__item--logo">
                     <img src="img/logo.svg" alt="Company logo" width="213">
                 </li>
                 <li class="site-list__item">
-                    <a class="site-list__link" href="#">Video</a>
+                    <a class="site-list__link" href="#video">Video</a>
                 </li>
                 <li class="site-list__item">
-                    <a class="site-list__link" href="#">About</a>
+                    <a class="site-list__link" href="#about">About</a>
                 </li>
             </ul>
         </nav>
@@ -104,10 +105,13 @@
             </div>
         </section>
 
-        <section class="goods">
+        <section class="goods" id="goods">
             <div class="goods__wrapper">
             <article class="goods__item">
-                <img src="img/furniture@1x.jpg" srcset="img/furniture@2x.jpg 2x" alt="Photo of a wooden table" width="600">
+                <picture>
+                    <source media="(max-width: 550px)" srcset="img/furniture-tablet@1x.jpg  1x, img/furniture-tablet@2x.jpg 2x">
+                    <img src="img/furniture@1x.jpg" srcset="img/furniture@2x.jpg 2x" alt="Photo of a wooden table" width="600">
+                </picture>
                 <div class="goods__info">
                     <h3 class="goods__title">Furniture</h3>
                     <p class="goods__description">
@@ -121,7 +125,10 @@
             </article>
 
             <article class="goods__item">
-                <img src="img/decor@1x.jpg" srcset="img/decor@2x.jpg 2x" alt="Photo of a wooden benches">
+                <picture>
+                    <source media="(max-width: 550px)" srcset="img/decor-tablet@1x.jpg  1x, img/decor-tablet@2x.jpg 2x">
+                    <img src="img/decor@1x.jpg" srcset="img/decor@2x.jpg 2x" alt="Photo of a wooden benches" width="700">
+                </picture>
                 <div class="goods__info">
                     <h3 class="goods__title">Decor</h3>
                     <p class="goods__description">
@@ -136,7 +143,7 @@
             </div>
         </section>
 
-        <section class="video-small">
+        <section class="video-small" id="work">
             <div class="video-small__wrapper">
             <h2 class="video-small__title">Wooder &mdash; is quality</h2>
             <p class="video-small__subtitle">
@@ -181,7 +188,7 @@
         </section>
 
 
-        <section class="video">
+        <section class="video" id="video">
             <div class="video__help-wrapper">
                 <div class="video__border">
                     <div class="video__width-wrapper">
@@ -208,10 +215,13 @@
             <img class="video__icon-play" src="img/video-play@1x.png" srcset="img/video-play@2x.png 2x" height="820">
         </section>
 
-        <section class="about">
+        <section class="about" id="about">
             <div class="about__wrapper">
                 <article class="about__item">
-                    <img src="img/about@1x.jpg" srcset="img/about@2x.jpg 2x" alt="Photo of our team">
+                    <picture>
+                        <source media="(max-width: 768px)" srcset="img/about-tablet@1x.jpg  1x, img/about-tablet@2x.jpg 2x">
+                        <img src="img/about@1x.jpg" srcset="img/about@2x.jpg 2x" alt="Photo of our team" width="800">
+                    </picture>
                     <div class="about__info">
                         <h3 class="about__title">About</h3>
                         <p class="about__description">
@@ -241,5 +251,7 @@
             </p>
         </div>
     </footer>
+
+<script src="js/menu.js" defer></script>
 </body>
 </html>
