@@ -1,6 +1,6 @@
 .video{
     position: relative;
-    background-image: url("/img/video-bg@1x.jpg");
+    background-image: url("../img/video-bg@1x.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 918px;
@@ -94,6 +94,7 @@
     margin-bottom: -4px;
     margin-right: 5px;
     fill:var(--intaractive-color);
+    transition: 0.5s;
 }
 
 .video__icon-play{
@@ -102,22 +103,26 @@
     right: 2%;
 }
 
-@media (min-resolution: 144dpi) , (min-resolution: 1.5dppx) {
+/*@media (min-resolution: 144dpi) , (min-resolution: 1.5dppx) {*/
 
-    .video{
-        background-image: url("/img/video-bg@2x.jpg");
-    }
-}
+    /*.video{*/
+        /*background-image: url("../img/video-bg@2x.jpg");*/
+    /*}*/
+/*}*/
 
 @media (max-width: 1000px){
 
+    .video__title::before,
+    .video__description::before{
+        display: none;
+    }
+
     .video__text-wrapper{
-        margin: 40px;
-        margin-bottom: 100px;
+        margin: 200px 40px 50px 40px;
     }
 
     .video__button{
-        margin-bottom: 50px;
+        margin-bottom: 200px;
     }
 }
 
@@ -127,10 +132,6 @@
         margin-top: 150px;
     }
 
-    .video__title::before,
-    .video__description::before{
-        display: none;
-    }
 
     .video__button{
         margin-bottom: 200px;

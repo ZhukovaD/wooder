@@ -12,6 +12,7 @@
     width: 300px;
     text-transform: uppercase;
     padding: 17px;
+    transition: 0.5s;
 }
 
 .link{
@@ -37,6 +38,18 @@
     width: 45px;
     background-color: var(--base-color);
     bottom: 0;
+
+}
+
+.link:hover::before{
+    animation-name: move;
+    animation-fill-mode:forwards;
+    animation-duration: 1s;
+}
+
+.link:not(:hover)::before{
+    animation-name: move-out;
+    animation-duration: 1s;
 }
 
 .link::after{
@@ -45,7 +58,7 @@
     position: absolute;
     height: 7px;
     width: 33px;
-    background-image:url("/img/link-arrow.svg");
+    background-image:url("../img/link-arrow.svg");
     background-repeat: no-repeat;
     bottom: 35%;
     right: 0;

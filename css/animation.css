@@ -1,0 +1,15 @@
+@keyframes move {
+
+    to{
+        transform: translateX(52px);
+    }
+}
+
+@keyframes move-out {
+    from{
+        transform: translateX(52px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
