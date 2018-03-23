@@ -3,7 +3,7 @@
     font-style: normal;
     font-display: swap;
     src: local("Proxima Nova Regular"),
-    url("../fonts/ProximaNovaRegular.woff") format("woff");
+    url("fonts/ProximaNovaRegular.woff") format("woff");
 }
 
 @font-face {
@@ -11,6 +11,6 @@
     font-style: normal;
     font-display: swap;
     src: local("Proxima Nova Bold"),
-    url("../fonts/ProximaNovaBold.woff") format("woff");
+    url("fonts/ProximaNovaBold.woff") format("woff");
 }
 

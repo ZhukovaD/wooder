@@ -71,7 +71,6 @@
 }
 
 .goods__item:nth-child(even) .goods__info{
-    /*margin-left: 20px;*/
     margin-right: 165px;
     text-align: right;
     justify-content: flex-end;

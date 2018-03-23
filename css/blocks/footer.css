@@ -1,6 +1,6 @@
 .footer{
     position: relative;
-    background-image: url("../docs/img/main-left@1x.jpg");
+    background-image: url("img/main-left@1x.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -48,7 +48,7 @@
 
 @media (min-resolution: 144dpi) , (min-resolution: 1.5dppx) {
     .footer {
-        background-image: url("../docs/img/main-left@2x.jpg");
+        background-image: url("img/main-left@2x.jpg");
     }
 }
 

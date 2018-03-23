@@ -1,6 +1,6 @@
 .video{
     position: relative;
-    background-image: url("../docs/img/video-bg@1x.jpg");
+    background-image: url("img/video-bg@1x.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 918px;

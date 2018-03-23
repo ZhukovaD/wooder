@@ -58,7 +58,7 @@
     position: absolute;
     height: 7px;
     width: 33px;
-    background-image:url("../img/link-arrow.svg");
+    background-image:url("img/link-arrow.svg");
     background-repeat: no-repeat;
     bottom: 35%;
     right: 0;
