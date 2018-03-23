@@ -838,7 +838,7 @@ img {
     width: 50%;
     height: calc(900px + 50px);
     background-color: #3f3f3f;
-    background-image: url("../docs/img/main-right@1x.jpg");
+    background-image: url("img/main-right@1x.jpg");
     background-size: cover;
 }
 

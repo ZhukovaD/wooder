@@ -157,7 +157,7 @@ gulp.task('compress', function (cb) {
     );
 });
 
-gulp.task("docs", function (done) {
+gulp.task("build", function (done) {
     run(
         "clean",
         "copy",
