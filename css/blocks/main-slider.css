@@ -13,7 +13,7 @@
     height: 900px;
     min-height: 100vh;
     background-color: #2c2c2c;
-    background-image: url("../img/main-left@1x.jpg");
+    background-image: url("../docs/img/main-left@1x.jpg");
     background-size: cover;
 }
 
@@ -22,7 +22,7 @@
     width: 50%;
     height: calc(900px + 50px);
     background-color: #3f3f3f;
-    background-image: url("../img/main-right@1x.jpg");
+    background-image: url("../docs/img/main-right@1x.jpg");
     background-size: cover;
 }
 
@@ -95,17 +95,6 @@
     left:-24px;
     cursor: default;
 }
-
-/*@media (min-resolution: 144dpi) , (min-resolution: 1.5dppx) {*/
-    /*.main-slider__left{*/
-        /*background-image: url("../img/main-left@2x.jpg");*/
-    /*}*/
-
-    /*.main-slider__right{*/
-        /*background-image: url("../img/main-right@2x.jpg");*/
-    /*}*/
-
-/*}*/
 
 @media (max-width: 500px){
     .main-slider__mouse-icon,
